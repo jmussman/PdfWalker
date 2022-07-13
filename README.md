@@ -37,7 +37,7 @@ Execute the program with _java -jar \<jar file\> [folders or options]._
 
 ## License
 
-The code is licensed under the MIT license. You may use and modify all or part of it as you choose, as long as attribution to the source is provided per the license. See the details in the [license file](./LICENSE.md) or at the [Open Source Initiative](https://opensource.org/licenses/MIT)
+The code is licensed under the Gnu AGPL license. You may use and modify all or part of it as you choose, as long as attribution to the source is provided per the license. See the details in the [license file](./LICENSE.md) or at the [GNU Licenses](https://www.gnu.org/licenses/licenses.html#AGPL) website.
 
 ### Software Configuration
 
