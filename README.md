@@ -50,8 +50,7 @@ at [Github - iText7](https://github.com/itext/itext7).
 
 ## Software Configuration
 
-This project targets Java 8 and above, although retargeting to earlier versions
-of Java should be possible (you do the work on dependencies).
+This project targets Java 8 and above.
 The tests are built with JUnit 5 (Jupiter), Mockito, and Cucumber.
 
 <hr>
