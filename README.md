@@ -42,7 +42,7 @@ The code is licensed under the MIT license. You may use and modify all or part o
 ### Software Configuration
 
 This project targets Java 11 and above, although retargeting to earlier versions
-of Java should be possible (you do the work on dependencies). The JUnit tests are built with JUnit 5 and Jupiter.
+of Java should be possible (you do the work on dependencies). The JUnit tests are built with JUnit 5 (Jupiter).
 
 <hr>
 Copyright © 2022 Joel A Mussman. All rights reserved.
