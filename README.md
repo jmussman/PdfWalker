@@ -37,12 +37,22 @@ Execute the program with _java -jar \<jar file\> [folders or options]._
 
 ## License
 
-The code is licensed under the Gnu AGPL license. You may use and modify all or part of it as you choose, as long as attribution to the source is provided per the license. See the details in the [license file](./LICENSE.md) or at the [GNU Licenses](https://www.gnu.org/licenses/licenses.html#AGPL) website.
+This code is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the 
+[License](./LICENSE.md) (or at the [GNU Licenses](https://www.gnu.org/licenses/licenses.html#AGPL) web page), or
+(at your option) any later version. 
 
-### Software Configuration
+### Attribution
+
+This code depends on the iText7 package which is also under the GNU AGPL license, you can find the project
+at [Github - iText7](https://github.com/itext/itext7).
+
+## Software Configuration
 
 This project targets Java 8 and above, although retargeting to earlier versions
-of Java should be possible (you do the work on dependencies). The JUnit tests are built with JUnit 5 (Jupiter).
+of Java should be possible (you do the work on dependencies).
+The tests are built with JUnit 5 (Jupiter), Mockito, and Cucumber.
 
 <hr>
 Copyright © 2022 Joel A Mussman. All rights reserved.
