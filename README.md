@@ -26,14 +26,6 @@ The _--showall_ flag will cause the program to output the path to every PDF file
 found.
 It may be used in combination with the _--deepinspection_ flag.
 
-###Launch scripts
-
-A Java runtime must be installed and accessible in the PATH environment
-variable to use the launch scripts.
-
-Use the _pdfwalker_ script in the project folder to launch the program on Unix, Linux, and MacOS.
-Use the _pdfwalker.bat_ script to launch the program on Microsoft Windows.
-
 ## License
 
 The code is licensed under the MIT license. You may use and modify all or part of it as you choose, as long as attribution to the source is provided per the license. See the details in the [license file](./LICENSE.md) or at the [Open Source Initiative](https://opensource.org/licenses/MIT)
