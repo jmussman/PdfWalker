@@ -29,11 +29,11 @@ It may be used in combination with the _--deepinspection_ flag.
 ### Execution
 
 This project does not take the additional step of building a Microsoft Windows excetuable or a MacOS app.
-That is left to the developer using this repository.
+That is left to the developer cloning this repository if so desired.
 
 The MVN package task will create an "executable" jar file with dependencies in the
 target folder.
-Execute the program with _java -jar <jar file> [folders or options]._
+Execute the program with _java -jar \<jar file\> [folders or options]._
 
 ## License
 
