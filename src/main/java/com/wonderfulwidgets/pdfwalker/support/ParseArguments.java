@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ParseArguments implements IParseArguments {
 
-    public List<Path> parse(String[] args, IOptions options) throws InvalidPathException {
+    public List<Path> parse(String[] args, IOptions options) throws InvalidPathException, IllegalArgumentException {
 
         // Scan the args logging and stripping out options.
 
@@ -31,6 +31,9 @@ public class ParseArguments implements IParseArguments {
                     case "--showall":
                         options.setLogAllPdfFiles(true);
                         break;
+
+                    default:
+                        throw new IllegalArgumentException("Illegal argument " + arg);
                 }
 
             } else {

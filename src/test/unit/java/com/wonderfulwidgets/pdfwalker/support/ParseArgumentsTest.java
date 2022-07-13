@@ -75,6 +75,14 @@ public class ParseArgumentsTest {
     }
 
     @Test
+    public void illegalOption() {
+
+        String[] args = { "--whatsup" };
+
+        assertThrows(IllegalArgumentException.class, () -> parseArguments.parse(args, optionsMock));
+    }
+
+    @Test
     public void allPathsReturned() {
 
         String[] args = { "./one", "--showall", "./two" };

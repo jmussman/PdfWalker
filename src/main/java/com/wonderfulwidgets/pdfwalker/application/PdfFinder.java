@@ -59,7 +59,7 @@ public class PdfFinder implements IPdfFinder {
 
                     if (options.isLogAllPdfFiles()) {
 
-                        outputStream.println(path);
+                        outputStream.println(path.toString());
                     }
                 }
             }
@@ -67,7 +67,7 @@ public class PdfFinder implements IPdfFinder {
 
         catch (BadPasswordException e) {
 
-            outputStream.println(path);
+            outputStream.println(path.toString());
         }
 
         catch (com.itextpdf.io.exceptions.IOException e) {

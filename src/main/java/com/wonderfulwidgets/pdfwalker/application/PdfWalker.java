@@ -86,5 +86,11 @@ public class PdfWalker {
             System.err.println(e.getMessage());
             throw e;
         }
+
+        catch (IllegalArgumentException e) {
+
+            System.err.println(e.getMessage());
+            throw e;
+        }
     }
 }
