@@ -9,7 +9,7 @@ The core purpose of this program is to walk directories and files looking for
 encrypted PDF files.
 It only identifies them, it will not crack the encryption
 
-###Program Usage
+### Program Usage
 
 The program will walk any folders specified, defaulting to the current folder when
 launched.
@@ -25,6 +25,15 @@ to see if it is a PDF file and check it.
 The _--showall_ flag will cause the program to output the path to every PDF file
 found.
 It may be used in combination with the _--deepinspection_ flag.
+
+### Execution
+
+This project does not take the additional step of building a Microsoft Windows excetuable or a MacOS app.
+That is left to the developer using this repository.
+
+The MVN package task will create an "executable" jar file with dependencies in the
+target folder.
+Execute the program with _java -jar <jar file> [folders or options]._
 
 ## License
 
