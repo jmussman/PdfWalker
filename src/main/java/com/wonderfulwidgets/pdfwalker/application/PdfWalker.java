@@ -37,7 +37,7 @@ public class PdfWalker {
         this.itext7Builder = itext7Builder;
     }
 
-    public static int main(String[] args) {
+    public static void main(String[] args) {
 
         // Create the instance and run.
 
@@ -50,10 +50,8 @@ public class PdfWalker {
 
         catch (Exception e) {
 
-            return 1;
+            System.exit(1);
         }
-
-        return 0;
     }
 
     protected void run(String[] args) {
